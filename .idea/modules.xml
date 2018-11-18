@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SignResourceJ.iml" filepath="$PROJECT_DIR$/SignResourceJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poi.iml" filepath="$PROJECT_DIR$/.idea/modules/poi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/poi_main.iml" group="poi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/poi_test.iml" group="poi" />
     </modules>
   </component>
 </project>
