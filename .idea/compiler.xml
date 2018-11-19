@@ -11,7 +11,17 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="junit" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="junit" target="1.5" />
+      <module name="Poi" target="1.5" />
       <module name="poi_main" target="1.8" />
       <module name="poi_test" target="1.8" />
     </bytecodeTargetLevel>
