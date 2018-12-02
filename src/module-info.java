@@ -6,5 +6,5 @@ module SignResourceJ {
     requires poi.ooxml;
     requires poi;
 
-    opens sample;
+    opens discrepancies;
 }

@@ -1,6 +1,6 @@
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.jupiter.api.Test;
-import pojo.DescrepencyParse;
+import pojo.DiscrepencyParse;
 import pojo.PurchaseOrder;
 import utils.ProcessPODescrepencies;
 import utils.PurchaseOrderExtractor;
@@ -40,8 +40,8 @@ public class PurchaseOrderUtils {
             e.printStackTrace();
         }
 
-        DescrepencyParse descrepencies = ProcessPODescrepencies.getDescrepencies(purchaseOrder);
-        assertTrue(descrepencies.getArray().size() >0);
+        DiscrepencyParse descrepencies = ProcessPODescrepencies.getDescrepencies(purchaseOrder);
+        assertTrue(descrepencies.getDiscrepancyArray().size() >0);
     }
 
 }

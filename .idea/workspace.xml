@@ -1,53 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/discrepancies/DiscrepencyModel.java" line="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_poi_poi_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__stax_stax_api_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/poi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/poi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/poi_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/poi_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/poi_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/poi_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/discrepancies/DiscrepencyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetDiscrepancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/DateComaparer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/VendorAverageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignResourceJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SignResourceJ.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/out/production/classes/pojo/DescrepencyParse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/out/production/classes/pojo/PurchaseOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/out/production/classes/pojo/SRItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/out/production/classes/utils/ProcessPODescrepencies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/out/production/classes/utils/PurchaseOrderExtractor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/out/test/classes/PurchaseOrderUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/src/main/java/pojo/DescrepencyParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/DescrepencyParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/src/main/java/pojo/PurchaseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/PurchaseOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/src/main/java/pojo/SRItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/SRItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/src/main/java/utils/ProcessPODescrepencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ProcessPODescrepencies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/src/main/java/utils/PurchaseOrderExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poi/src/test/java/PurchaseOrderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PurchaseOrderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/pojo/DescrepencyParse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/pojo/PurchaseOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/pojo/PurchaseOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/pojo/SRItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/pojo/SRItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/utils/ProcessPODescrepencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/utils/ProcessPODescrepencies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/utils/PurchaseOrderExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/utils/PurchaseOrderExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SignResourceJ/PurchaseOrderUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SignResourceJ/PurchaseOrderUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojo/DescrepencyParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/DiscrepencyParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojo/PurchaseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/PurchaseOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojo/SRItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/SRItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/discrepancies/DiscrepancyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/discrepancies/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ProcessPODescrepencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ProcessPODescrepencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PurchaseOrderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PurchaseOrderUtils.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,6 +47,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SignResourceJ$VendorAverageTest.ic" NAME="VendorAverageTest Coverage Results" MODIFIED="1543702816942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -127,47 +112,54 @@
     <session id="-1260428890">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="854" />
+          <entry key="dummy" value="27" />
+          <entry key="fxml" value="939" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="919" />
+          <entry key="java" value="4451" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="919" />
-          <entry key="XML" value="871" />
+          <entry key="JAVA" value="4451" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="XML" value="956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
-          <entry key="class" value="32" />
-          <entry key="fxml" value="1" />
+          <entry key="class" value="42" />
+          <entry key="fxml" value="2" />
           <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="51" />
           <entry key="png" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="32" />
+          <entry key="CLASS" value="42" />
           <entry key="Groovy" value="3" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="51" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -178,102 +170,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/OPCPackage.class">
+        <entry file="file://$PROJECT_DIR$/test/PurchaseOrderUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbookFactory.class">
+        <entry file="file://$PROJECT_DIR$/test/VendorAverageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="322">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.class">
+        <entry file="file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="166" selection-start-line="166" selection-end-line="166" />
+            <state relative-caret-position="1546">
+              <caret line="267" selection-start-line="267" selection-end-line="267" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/PurchaseOrderUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/pojo/SRItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/internal/marshallers/ZipPackagePropertiesMarshaller.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/internal/ContentType.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#1975#1976#0" expanded="true" />
-                <element signature="e#2861#2862#0" expanded="true" />
-                <element signature="e#2895#2896#0" expanded="true" />
-                <element signature="e#2930#2931#0" expanded="true" />
-                <element signature="e#2961#2962#0" expanded="true" />
-                <element signature="e#2993#2994#0" expanded="true" />
-                <element signature="e#3031#3032#0" expanded="true" />
-                <element signature="e#3107#3108#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/ZipPackage.class">
+        <entry file="file://$PROJECT_DIR$/src/pojo/PurchaseOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="204">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/internal/ZipHelper.class">
+        <entry file="file://$PROJECT_DIR$/src/discrepancies/DiscrepancyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="850">
+              <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/poifs/filesystem/FileMagic.class">
+        <entry file="file://$PROJECT_DIR$/src/discrepancies/DiscrepencyModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/util/IOUtils.class">
+        <entry file="file://$PROJECT_DIR$/src/discrepancies/sample.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="2159">
+              <caret line="127" column="15" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -284,9 +261,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -296,6 +273,16 @@
       <find>35</find>
       <find>WorkbookFa</find>
       <find>Workbook</find>
+      <find>butto</find>
+      <find>OK</find>
+      <find>O</find>
+      <find>ok</find>
+      <find>parse</find>
+      <find>e</find>
+      <find>purch</find>
+      <find>disc</find>
+      <find>Date</find>
+      <find>Compare</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\rcarb\OneDrive\Documents\libs\poi\poi-4.0.0.jar!\org\apache\poi\common\usermodel</dir>
@@ -310,12 +297,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
-    <option name="myGradleHomes">
-      <map />
-    </option>
-    <option name="myGradleVersions">
-      <map />
-    </option>
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/poi/.gradle" value="0" />
@@ -338,26 +319,44 @@
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/utils/ProcessPODescrepencies.java" />
         <option value="$PROJECT_DIR$/poi/build.gradle" />
-        <option value="$PROJECT_DIR$/src/pojo/PurchaseOrder.java" />
         <option value="$PROJECT_DIR$/src/test/PurchaseOrderUtils.java" />
         <option value="$PROJECT_DIR$/src/module-info.java" />
         <option value="$PROJECT_DIR$/src/test/pojo/DescrepencyParseTest.java" />
         <option value="$PROJECT_DIR$/src/test/PurchaseOrderTest.java" />
         <option value="$PROJECT_DIR$/junit/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/utils/ProcessPODescrepenciesTest.java" />
-        <option value="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" />
         <option value="$PROJECT_DIR$/test/PurchaseOrderUtils.java" />
+        <option value="$PROJECT_DIR$/src/services/GetDiscrepancy.java" />
+        <option value="$PROJECT_DIR$/src/discrepancies/DiscrepencyModel.java" />
+        <option value="$PROJECT_DIR$/src/utils/ProcessPODescrepencies.java" />
+        <option value="$PROJECT_DIR$/src/pojo/DiscrepencyParse.java" />
+        <option value="$PROJECT_DIR$/src/discrepancies/DiscrepancyController.java" />
+        <option value="$PROJECT_DIR$/src/discrepancies/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/pojo/PurchaseOrder.java" />
+        <option value="$PROJECT_DIR$/src/pojo/SRItem.java" />
+        <option value="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" />
+        <option value="$PROJECT_DIR$/src/utils/DateComaparer.java" />
+        <option value="$PROJECT_DIR$/test/VendorAverageTest.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="junit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="x" value="-10" />
+    <option name="width" value="1522" />
+    <option name="height" value="1932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -368,6 +367,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SignResourceJ" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SignResourceJ" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,23 +399,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SignResourceJ" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SignResourceJ" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="SignResourceJ" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SignResourceJ" type="616d4139:PackageViewModuleNode" />
-              <item name="sample" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +413,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542612281099" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543721768479" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -438,6 +432,10 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="utils" />
@@ -447,6 +445,10 @@
       <recent name="C:\Users\rcarb\OneDrive\Documents\libs\SignResourceJ\src\utils" />
       <recent name="C:\Users\rcarb\OneDrive\Documents\libs\SignResourceJ\src\pojo" />
       <recent name="C:\Users\rcarb\OneDrive\Documents\libs\SignResourceJ\src\res\icons" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils" />
+      <recent name="services" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.VendorAverageTest">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -481,12 +483,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="discrepancies.Main" />
       <module name="SignResourceJ" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -498,26 +499,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProcessPODescrepenciesTest.testaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SignResourceJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ProcessPODescrepenciesTest" />
-      <option name="METHOD_NAME" value="testaTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -562,7 +543,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration name="VendorAverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SignResourceJ" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VendorAverageTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -571,24 +555,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessPODescrepenciesTest.testaTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VendorAverageTest.readAverageExcelFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SignResourceJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ProcessPODescrepenciesTest" />
-      <option name="METHOD_NAME" value="testaTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VendorAverageTest" />
+      <option name="METHOD_NAME" value="readAverageExcelFile" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -615,19 +600,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ProcessPODescrepenciesTest.testaTest" />
-      <item itemvalue="TestNG.ProcessPODescrepenciesTest.testaTest" />
       <item itemvalue="JUnit.PurchaseOrderUtils.extractPurchaseOrdersToArray" />
       <item itemvalue="JUnit.PurchaseOrderUtils" />
       <item itemvalue="JUnit.PurchaseOrderUtils.comparePreceDiscrepencies" />
+      <item itemvalue="JUnit.VendorAverageTest.readAverageExcelFile" />
+      <item itemvalue="JUnit.VendorAverageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PurchaseOrderUtils.extractPurchaseOrdersToArray" />
+        <item itemvalue="JUnit.VendorAverageTest" />
+        <item itemvalue="JUnit.VendorAverageTest.readAverageExcelFile" />
         <item itemvalue="JUnit.PurchaseOrderUtils" />
+        <item itemvalue="JUnit.PurchaseOrderUtils.extractPurchaseOrdersToArray" />
         <item itemvalue="JUnit.PurchaseOrderUtils.comparePreceDiscrepencies" />
-        <item itemvalue="TestNG.ProcessPODescrepenciesTest.testaTest" />
-        <item itemvalue="JUnit.ProcessPODescrepenciesTest.testaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -646,52 +631,97 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 22h 55m 39s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 18h 25m 56s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 07m 31s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 18h 48m 15s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 08m 27s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 18h 49m 58s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 13m 28s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 18h 54m 44s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 14m 31s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 19h 03m 01s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 15m 07s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 19h 04m 05s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 16m 27s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 19h 11m 24s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 17m 24s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 19h 11m 29s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 19m 00s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 19h 13m 19s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.11.18 at 23h 19m 52s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="VendorAverageTest - 2018.12.01 at 19h 25m 34s.xml">
+      <configuration name="VendorAverageTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.35189003" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.38281786" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
-      <window_info anchor="bottom" id="Build" weight="0.32897863" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897863" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39904988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897863" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32897863" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32897863" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32897863" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49911505" weight="0.24948454" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49911505" weight="0.3298969" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.50088495" side_tool="true" weight="0.3298969" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.3718213" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897863" />
@@ -706,10 +736,8 @@
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32897863" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32897863" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -717,42 +745,10 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6703755" weight="0.35189003" />
-      <window_info id="Structure" order="5" weight="0.25" />
-      <window_info id="Favorites" order="6" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.32897863" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32897863" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.39904988" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Application Servers" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="11" />
-      <window_info anchor="bottom" id="Changes" order="12" />
-      <window_info anchor="bottom" id="Profiler" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32897863" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -766,122 +762,46 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/poi/src/test/java/PurchaseOrderUtils.java</url>
-          <line>42</line>
+          <url>file://$PROJECT_DIR$/src/services/GetDiscrepancy.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/poi/src/test/java/PurchaseOrderUtils.java</url>
-          <line>25</line>
+          <url>jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.class</url>
+          <line>117</line>
           <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/ZipPackage.class</url>
-          <line>46</line>
-          <properties field="MIMETYPE" class="org.apache.poi.openxml4j.opc.ZipPackage" />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="item.poNumber" />
+        <watch expression="columnIndex" />
+        <watch expression="cellValue" />
+        <watch expression="poArray" />
+        <watch expression="item" />
+        <watch expression="purchaseOrder" />
+        <watch expression="purchaseOrder.dateCreated" />
+        <watch expression="purchaseOrder.dateClosed" />
+        <watch expression="cellRowIndex" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/poi/src/test/java/PurchaseOrderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poi/src/main/java/pojo/DescrepencyParse.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poi/src/main/java/pojo/PurchaseOrder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../javafx-sdk-11.0.1/lib/javafx.controls.jar!/javafx/scene/chart/PieChart.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/res/black.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/SRItem.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poi/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poi/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poi/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poi/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Poi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/PurchaseOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-3.17.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#4925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/poi/gradlew.bat" />
+    <entry file="file://$PROJECT_DIR$/poi/gradlew" />
+    <entry file="file://$PROJECT_DIR$/poi/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/Poi/pom.xml" />
+    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-3.17.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.class" />
     <entry file="jar://$USER_HOME$/.ideaLibSources/poi-ooxml-3.17-sources.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -889,20 +809,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../poi/poi-3.17.jar!/org/apache/poi/ss/usermodel/Workbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/PurchaseOrderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../poi/poi-3.17.jar!/org/apache/poi/ss/usermodel/Workbook.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/PurchaseOrderUtils.java" />
     <entry file="file://$PROJECT_DIR$/src/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -910,31 +818,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/PurchaseOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/pojo/DescrepencyParseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/DescrepencyParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/PurchaseOrderTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/pojo/DescrepencyParseTest.java" />
     <entry file="file://$PROJECT_DIR$/junit/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -949,20 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/utils/ProcessPODescrepenciesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/ProcessPODescrepencies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/utils/ProcessPODescrepenciesTest.java" />
     <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/ss/usermodel/Workbook.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -973,20 +845,10 @@
     <entry file="file://$PROJECT_DIR$/SignResourceJ.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="371" selection-start-line="371" selection-end-line="371" />
-          <folding>
-            <element signature="e#12877#12878#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,20 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/util/POILogFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#554#555#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,6 +908,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/ZipPackage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbookFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/OPCPackage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/internal/marshallers/ZipPackagePropertiesMarshaller.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1067,31 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2861#2862#0" expanded="true" />
-            <element signature="e#2895#2896#0" expanded="true" />
-            <element signature="e#2930#2931#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#3107#3108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PurchaseOrderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/poifs/filesystem/FileMagic.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
@@ -1102,24 +950,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/OPCPackage.class">
+    <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/poifs/filesystem/FileMagic.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbookFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/ZipPackage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="252">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
@@ -1130,10 +964,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../javafx-sdk-11.0.1/lib/javafx.graphics.jar!/javafx/concurrent/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../javafx-sdk-11.0.1/lib/javafx.graphics.jar!/javafx/concurrent/Task.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="491" selection-start-line="491" selection-end-line="491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ProcessPODescrepencies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/DiscrepencyParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/GetDiscrepancy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/poifs/filesystem/POIFSFileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../poi/poi-4.0.0.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="296">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="394" selection-start-line="394" selection-end-line="394" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PurchaseOrderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/PurchaseOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discrepancies/DiscrepancyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discrepancies/DiscrepencyModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/discrepancies/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="127" column="15" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/SRItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/DateComaparer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/VendorAverageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1546">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
         </state>
       </provider>
     </entry>
@@ -1148,6 +1115,7 @@
             <option name="proportions">
               <list>
                 <option value="0.37241378" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1203,7 +1171,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-logging-1.2</last-edited>
+          <last-edited>poi-ooxml-schemas-4.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

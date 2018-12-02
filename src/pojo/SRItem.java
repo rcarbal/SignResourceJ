@@ -17,6 +17,15 @@ public class SRItem implements Comparable<SRItem> {
     private Date dateReceived;
     private int poNumber;
 
+    public Date getDateReceived() {
+        return dateReceived;
+    }
+
+    public void setDateReceived(Date dateReceived) {
+        this.dateReceived = dateReceived;
+    }
+
+
     public BigDecimal getUnitPrice() {
         return unitPrice;
     }
@@ -66,7 +75,7 @@ public class SRItem implements Comparable<SRItem> {
         this.poNumber = poNumber;
     }
 
-    private int getPoNumber() {
+    public int getPoNumber() {
         return poNumber;
     }
 
@@ -78,4 +87,7 @@ public class SRItem implements Comparable<SRItem> {
 
     }
 
+    public Date getDateEntered() {
+        return dateEntered;
+    }
 }
