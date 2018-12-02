@@ -9,6 +9,7 @@ public class PurchaseOrder implements Comparable<PurchaseOrder>{
     private ArrayList<SRItem> itemArray;
     private Date dateCreated;
     private Date dateClosed;
+    private int vendor;
 
     public Date getDateCreated() {
         return dateCreated;
@@ -38,6 +39,13 @@ public class PurchaseOrder implements Comparable<PurchaseOrder>{
         return purchaseOrderNumber;
     }
 
+    public int getVendor() {
+        return vendor;
+    }
+
+    public void setVendor(int vendor) {
+        this.vendor = vendor;
+    }
 
     @Override
     public int compareTo(PurchaseOrder o) {

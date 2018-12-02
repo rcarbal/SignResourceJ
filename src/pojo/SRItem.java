@@ -55,6 +55,10 @@ public class SRItem implements Comparable<SRItem> {
         this.vendorNumcer = vendorNumber;
     }
 
+    public int getVendorNumcer() {
+        return vendorNumcer;
+    }
+
     public void addVendorName(String cellValue) {
         vendorName = cellValue;
     }

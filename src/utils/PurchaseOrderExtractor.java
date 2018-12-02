@@ -225,6 +225,7 @@ public class PurchaseOrderExtractor {
                 //Set the canceled date
                 Date dateClosed = item.getDateReceived();
                 purchaseOrder.setDateClosed(dateClosed);
+                purchaseOrder.setVendor(item.getVendorNumcer());
 
                 poArray.add(purchaseOrder);
                 srItemArrayList = new ArrayList<>();
@@ -261,6 +262,7 @@ public class PurchaseOrderExtractor {
                     }
                 }
 
+                purchaseOrder.setVendor(item.getVendorNumcer());
                 poArray.set(poIndex, purchaseOrder);
                 srItemArrayList = new ArrayList<>();
             }
