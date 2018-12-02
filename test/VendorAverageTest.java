@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 import pojo.PurchaseOrder;
 import pojo.Vendor;
 import pojo.VendorAverage;
-import pojo.VendorParser;
+import utils.VendorParser;
 import utils.PODataVerifier;
 import utils.PurchaseOrderExtractor;
 import utils.PurchaseOrderUtils;
@@ -50,6 +50,6 @@ public class VendorAverageTest {
         ArrayList<VendorAverage> vendorAverage =
                 VendorParser.getAverageOfVendors(vendorsPurchaseOrder);
 
-
+        assertTrue(vendorAverage.size() > 0);
     }
 }
