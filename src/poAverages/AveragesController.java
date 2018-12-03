@@ -120,16 +120,20 @@ public class AveragesController implements Initializable {
         } else {
             loadLineChartData();
             randed_1.setText(VendorUtil.getVendorInIndex(vendorAverages.get(0).getVendorVumber()) + "  ");
-            rank1Days.setText(String.valueOf(vendorAverages.get(0).getAverageOfPOs()) + " days");
+            rank1Days.setText(String.valueOf(vendorAverages.get(0).getAverageOfPOs()) + " days "+
+                    " Total POs: "+ String.valueOf(vendorAverages.get(0).getPoDays().size()));
 
             randed_2.setText(VendorUtil.getVendorInIndex(vendorAverages.get(1).getVendorVumber()) + "  ");
-            rank2Days.setText(String.valueOf(vendorAverages.get(1).getAverageOfPOs()) + " days");
+            rank2Days.setText(String.valueOf(vendorAverages.get(1).getAverageOfPOs()) + " days " +
+                    " Total POs: "+ String.valueOf(vendorAverages.get(1).getPoDays().size()));
 
             randed_3.setText(VendorUtil.getVendorInIndex(vendorAverages.get(2).getVendorVumber()) + "  ");
-            rank3Days.setText(String.valueOf(vendorAverages.get(2).getAverageOfPOs()) + " days");
+            rank3Days.setText(String.valueOf(vendorAverages.get(2).getAverageOfPOs()) + " days " +
+                    " Total POs: "+ String.valueOf(vendorAverages.get(2).getPoDays().size()));
 
             randed_4.setText(VendorUtil.getVendorInIndex(vendorAverages.get(3).getVendorVumber()) + "  ");
-            rank4Days.setText(String.valueOf(vendorAverages.get(3).getAverageOfPOs()) + " days");
+            rank4Days.setText(String.valueOf(vendorAverages.get(3).getAverageOfPOs()) + " days "+
+                    " Total POs: "+ String.valueOf(vendorAverages.get(3).getPoDays().size()));
         }
 
     }

@@ -10,6 +10,9 @@
 
     <!--RANKED 1 VENDOR-->
     <HBox>
+        <padding>
+            <Insets left="40"/>
+        </padding>
         <Label style="-fx-font-weight: bold" text="#1 Vendor: ">
             <font>
                 <Font size="24.0" />
@@ -29,6 +32,9 @@
 
     <!--RANKED 2 VENDOR-->
     <HBox>
+        <padding>
+            <Insets left="40"/>
+        </padding>
         <Label style="-fx-font-weight: bold" text="#2 Vendor: ">
             <font>
                 <Font size="24.0" />
@@ -48,6 +54,9 @@
 
     <!--RANKED 3 VENDOR-->
     <HBox>
+        <padding>
+            <Insets  left="40"/>
+        </padding>
         <Label style="-fx-font-weight: bold" text="#3 Vendor: ">
             <font>
                 <Font size="24.0" />
@@ -67,6 +76,9 @@
 
     <!--RANKED 4 VENDOR-->
     <HBox>
+        <padding>
+            <Insets  left="40"/>
+        </padding>
         <Label style="-fx-font-weight: bold" text="#4 Vendor: ">
             <font>
                 <Font size="24.0" />
