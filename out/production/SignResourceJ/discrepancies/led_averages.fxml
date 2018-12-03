@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poAverages.AveragesController">
+    <Pane fx:id="pane_for_lineGraph">
+    </Pane>
+
+    <!--RANKED 1 VENDOR-->
+    <HBox>
+        <Label style="-fx-font-weight: bold" text="#1 Vendor: ">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Text fx:id="randed_1" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fx:id="rank1Days" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+    </HBox>
+
+    <!--RANKED 2 VENDOR-->
+    <HBox>
+        <Label style="-fx-font-weight: bold" text="#2 Vendor: ">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Text fx:id="randed_2" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fx:id="rank2Days" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+    </HBox>
+
+    <!--RANKED 3 VENDOR-->
+    <HBox>
+        <Label style="-fx-font-weight: bold" text="#3 Vendor: ">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Text fx:id="randed_3" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fx:id="rank3Days" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+    </HBox>
+
+    <!--RANKED 4 VENDOR-->
+    <HBox>
+        <Label style="-fx-font-weight: bold" text="#4 Vendor: ">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Text fx:id="randed_4" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text fx:id="rank4Days" text="">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+    </HBox>
+    <HBox spacing="15">
+        <padding>
+            <Insets top="5" left="60"/>
+        </padding>
+        <Button fx:id="parse_button" prefHeight="40" prefWidth="150" text="PARSE " />
+        <Button fx:id="rank1" prefHeight="40" prefWidth="150" text="RANK 1" />
+        <Button fx:id="rank2" prefHeight="40" prefWidth="150" text="RANK 2" />
+        <Button fx:id="rank3" prefHeight="40" prefWidth="150" text="RANK 3" />
+        <Button fx:id="rank4" prefHeight="40" prefWidth="150" text="RANK 4" />
+    </HBox>
+
+
+
+</VBox>

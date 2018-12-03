@@ -51,5 +51,7 @@ public class VendorAverageTest {
                 VendorParser.getAverageOfVendors(vendorsPurchaseOrder);
 
         assertTrue(vendorAverage.size() > 0);
+
+
     }
 }

@@ -7,4 +7,5 @@ module SignResourceJ {
     requires poi;
 
     opens discrepancies;
+    opens poAverages;
 }
