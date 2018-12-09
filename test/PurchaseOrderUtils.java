@@ -14,6 +14,19 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class PurchaseOrderUtils {
 
     @Test
+    void extractOpenPurchaseOrders(){
+        ArrayList<PurchaseOrder> purchaseOrder = null;
+        try {
+            purchaseOrder = PurchaseOrderExtractor.
+                    getPurchaseOrder("C:/Users/rcarb/OneDrive/Documents/testExcel.xlsx");
+        } catch (IOException | ParseException | InvalidFormatException e) {
+            e.printStackTrace();
+        }
+        assert purchaseOrder != null;
+        assertTrue(purchaseOrder.size()>0);
+    }
+
+    @Test
     void extractPurchaseOrdersToArray(){
 
         ArrayList<PurchaseOrder> purchaseOrder = null;

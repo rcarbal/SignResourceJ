@@ -16,6 +16,7 @@ public class SRItem implements Comparable<SRItem> {
     private Date dateEntered;
     private Date dateReceived;
     private int poNumber;
+    private int orderedQuantity;
 
     public Date getDateReceived() {
         return dateReceived;
@@ -83,15 +84,21 @@ public class SRItem implements Comparable<SRItem> {
         return poNumber;
     }
 
+
+    public Date getDateEntered() {
+        return dateEntered;
+    }
+
+    public void addItemOrderQuantity(int itemQuantity) {
+        this.orderedQuantity = itemQuantity;
+
+    }
+
     @Override
     public int compareTo(SRItem o) {
         int po1 = this.poNumber;
         int po2 = o.getPoNumber();
         return Integer.compare(po1, po2);
 
-    }
-
-    public Date getDateEntered() {
-        return dateEntered;
     }
 }

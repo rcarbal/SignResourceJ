@@ -146,7 +146,7 @@ public class AveragesController implements Initializable {
         xAxis.setLabel("nth Day In Year");
 
         //y-axis
-        NumberAxis yAxis = new NumberAxis(0, 31, 1);
+        NumberAxis yAxis = new NumberAxis(0, 90, 1);
         yAxis.setLabel("Average Days");
 
         averageLineChart = new LineChart<>(xAxis, yAxis);
