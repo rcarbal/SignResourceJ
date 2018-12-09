@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
+import pojo.SRItem;
 import pojo.SalesOrder;
+import utils.ExcelFileReader;
 import utils.SalesOrderParse;
 
 import java.io.IOException;
@@ -19,5 +21,18 @@ public class FindUnpurchasedTest {
             e.printStackTrace();
         }
         assertTrue(salesOrderArrayList.size() >0);
+    }
+
+    @Test
+    void getPurchasingParts(){
+
+        String fileLocation = "C:/Users/rcarb/OneDrive/Documents/signresource/material.xlsx";
+        ArrayList<SRItem> purchasingItems =
+                ExcelFileReader.getPurchasingItems(fileLocation);
+    }
+
+    @Test
+    void matchPOsToSO(){
+
     }
 }

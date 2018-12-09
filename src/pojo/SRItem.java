@@ -5,7 +5,8 @@ import java.util.Date;
 
 public class SRItem implements Comparable<SRItem> {
 
-    private String itemNumber;
+    private String itemNumberString;
+    private int itemNumberInt;
     private String itemDescription;
     private String itemLineStatus;
     private Date itemDueDate;
@@ -17,6 +18,18 @@ public class SRItem implements Comparable<SRItem> {
     private Date dateReceived;
     private int poNumber;
     private int orderedQuantity;
+    private int openQuantity;
+    private int itemSalesorderNumber;
+
+    public int getItemNumberInt() {
+        return itemNumberInt;
+    }
+
+    public void setItemNumberInt(int itemNumberInt) {
+        this.itemNumberInt = itemNumberInt;
+    }
+
+
 
     public Date getDateReceived() {
         return dateReceived;
@@ -37,7 +50,7 @@ public class SRItem implements Comparable<SRItem> {
 
 
     public void addItemNumber(String cellValue) {
-        itemNumber = cellValue;
+        itemNumberString = cellValue;
     }
 
     public void addItemDescription(String cellValue) {
@@ -52,7 +65,7 @@ public class SRItem implements Comparable<SRItem> {
         itemDueDate = date;
     }
 
-    public void addItemVendor(int vendorNumber) {
+    public void setVendorNumber(int vendorNumber) {
         this.vendorNumcer = vendorNumber;
     }
 
@@ -84,6 +97,10 @@ public class SRItem implements Comparable<SRItem> {
         return poNumber;
     }
 
+    public void setOpenQuantity(Integer openQuantity) {
+        this.openQuantity = openQuantity;
+    }
+
 
     public Date getDateEntered() {
         return dateEntered;
@@ -91,7 +108,15 @@ public class SRItem implements Comparable<SRItem> {
 
     public void addItemOrderQuantity(int itemQuantity) {
         this.orderedQuantity = itemQuantity;
+    }
 
+
+    public void setSalesorderNumber(Integer salesorderNumber) {
+        this.itemSalesorderNumber = salesorderNumber;
+    }
+
+    public int getItemSalesorderNumber() {
+        return itemSalesorderNumber;
     }
 
     @Override
@@ -101,4 +126,5 @@ public class SRItem implements Comparable<SRItem> {
         return Integer.compare(po1, po2);
 
     }
+
 }

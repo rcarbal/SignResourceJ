@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pojo/SalesOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/SalesOrderParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FindUnpurchasedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ExcelFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/poAverages/AveragesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/poAverages/AveragesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poAverages/AveragesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poAverages/AveragesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/pojo/SRItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/pojo/SRItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SignResourceJ/utils/PurchaseOrderExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SignResourceJ/utils/PurchaseOrderExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SignResourceJ/PurchaseOrderUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SignResourceJ/PurchaseOrderUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pojo/SRItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/SRItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/FindUnpurchasedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/FindUnpurchasedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/PurchaseOrderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PurchaseOrderUtils.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -95,7 +96,7 @@
     <session id="-1260428890">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -103,10 +104,10 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -114,14 +115,14 @@
           <entry key="dummy" value="43" />
           <entry key="fxml" value="1238" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="12784" />
+          <entry key="java" value="14415" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="12784" />
+          <entry key="JAVA" value="14415" />
           <entry key="PLAIN_TEXT" value="43" />
           <entry key="XML" value="1255" />
         </counts>
@@ -134,7 +135,7 @@
           <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="103" />
+          <entry key="java" value="106" />
           <entry key="png" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -145,7 +146,7 @@
           <entry key="Groovy" value="3" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="103" />
+          <entry key="JAVA" value="106" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="10" />
         </counts>
@@ -158,46 +159,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/poAverages/AveragesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="107" column="76" selection-start-line="107" selection-start-column="76" selection-end-line="107" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/GetVendorAverage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/FindUnpurchasedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="289">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/ExcelFileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/PurchaseOrderUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2754">
-              <caret line="188" selection-start-line="188" selection-end-line="189" selection-end-column="71" />
+            <state relative-caret-position="270">
+              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -205,8 +188,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/SalesOrderParse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="178">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -214,8 +197,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pojo/SRItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="1087">
+              <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+              <folding>
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2275#2276#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2122#2123#0" expanded="true" />
+                <element signature="e#2181#2182#0" expanded="true" />
+                <element signature="e#2264#2265#0" expanded="true" />
+                <element signature="e#2307#2308#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -223,20 +220,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pojo/SalesOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
+            <state relative-caret-position="85">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -281,6 +266,10 @@
       <find>Parse</find>
       <find>top=&quot;5&quot;</find>
       <find>(new</find>
+      <find>vendorNu</find>
+      <find>open</find>
+      <find>isInte</find>
+      <find>rowIn</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\rcarb\OneDrive\Documents\libs\poi\poi-4.0.0.jar!\org\apache\poi\common\usermodel</dir>
@@ -307,7 +296,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/poi/src/main/java/poja/PurchaseOrder.java" />
         <option value="$PROJECT_DIR$/poi/src/main/java/poja/SRItem.java" />
         <option value="$PROJECT_DIR$/poi/src/main/java/pojo/SRItem.java" />
         <option value="$PROJECT_DIR$/poi/src/main/java/utils/ProcessPODescrepencies.java" />
@@ -331,7 +319,6 @@
         <option value="$PROJECT_DIR$/src/utils/PODataVerifier.java" />
         <option value="$PROJECT_DIR$/test/PurchaseOrderUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/pojo/PurchaseOrder.java" />
-        <option value="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" />
         <option value="$PROJECT_DIR$/src/pojo/Vendors.java" />
         <option value="$PROJECT_DIR$/src/utils/PurchaseOrderUtils.java" />
         <option value="$PROJECT_DIR$/src/pojo/VendorParser.java" />
@@ -353,11 +340,13 @@
         <option value="$PROJECT_DIR$/src/discrepancies/sample.fxml" />
         <option value="$PROJECT_DIR$/src/discrepancies/led_averages.fxml" />
         <option value="$PROJECT_DIR$/src/poAverages/AveragesController.java" />
-        <option value="$PROJECT_DIR$/test/FindUnpurchasedTest.java" />
         <option value="$PROJECT_DIR$/src/pojo/SalesOrder.java" />
-        <option value="$PROJECT_DIR$/src/pojo/SRItem.java" />
         <option value="$PROJECT_DIR$/src/utils/SalesOrderParse.java" />
         <option value="$PROJECT_DIR$/test/PurchaseOrderUtils.java" />
+        <option value="$PROJECT_DIR$/src/pojo/SRItem.java" />
+        <option value="$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java" />
+        <option value="$PROJECT_DIR$/test/FindUnpurchasedTest.java" />
+        <option value="$PROJECT_DIR$/src/utils/ExcelFileReader.java" />
       </list>
     </option>
   </component>
@@ -387,17 +376,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SignResourceJ" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SignResourceJ" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -415,18 +393,23 @@
               <item name="SignResourceJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="SignResourceJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="poAverages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SignResourceJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SignResourceJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SignResourceJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="SignResourceJ" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SignResourceJ" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SignResourceJ" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -446,7 +429,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544326549646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544399246293" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -458,11 +441,6 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="utils" />
-      <recent name="pojo" />
-      <recent name="services" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="utils" />
       <recent name="pojo" />
@@ -474,6 +452,9 @@
       <recent name="" />
       <recent name="src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rcarb\OneDrive\Documents\libs\SignResourceJ\src\discrepancies" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rcarb\OneDrive\Documents\libs\SignResourceJ\src\utils" />
       <recent name="C:\Users\rcarb\OneDrive\Documents\libs\SignResourceJ\src\pojo" />
@@ -484,8 +465,10 @@
       <recent name="utils" />
       <recent name="poja" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rcarb\OneDrive\Documents\libs\SignResourceJ\src\discrepancies" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils" />
+      <recent name="pojo" />
+      <recent name="services" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,7 +483,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PurchaseOrderUtils.extractPurchaseOrdersToArray">
+  <component name="RunManager" selected="JUnit.PurchaseOrderUtils.extractOpenPurchaseOrders">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -566,11 +549,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SignResourceJ" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PurchaseOrderUtils" />
-      <option name="METHOD_NAME" value="extractPurchaseOrdersToArray" />
+      <option name="METHOD_NAME" value="extractOpenPurchaseOrders" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -580,10 +563,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendorAverageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SignResourceJ" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VendorAverageTest" />
+      <option name="MAIN_CLASS_NAME" value="PurchaseOrderUtils" />
+      <option name="METHOD_NAME" value="extractPurchaseOrdersToArray" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -638,18 +623,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.VendorAverageTest.readAverageExcelFile" />
-      <item itemvalue="JUnit.VendorAverageTest" />
       <item itemvalue="JUnit.FindUnpurchasedTest.getSalesOrders" />
       <item itemvalue="JUnit.FindUnpurchasedTest" />
       <item itemvalue="JUnit.PurchaseOrderUtils.extractPurchaseOrdersToArray" />
+      <item itemvalue="JUnit.PurchaseOrderUtils.extractOpenPurchaseOrders" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PurchaseOrderUtils.extractOpenPurchaseOrders" />
         <item itemvalue="JUnit.PurchaseOrderUtils.extractPurchaseOrdersToArray" />
         <item itemvalue="JUnit.FindUnpurchasedTest" />
         <item itemvalue="JUnit.FindUnpurchasedTest.getSalesOrders" />
         <item itemvalue="JUnit.VendorAverageTest.readAverageExcelFile" />
-        <item itemvalue="JUnit.VendorAverageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -668,35 +653,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 08h 17m 44s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 14h 44m 41s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 10h 49m 40s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 14h 48m 03s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 10h 56m 33s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 14h 49m 48s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 11h 02m 40s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 14h 52m 07s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 18h 50m 37s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 14h 52m 34s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 18h 55m 45s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 14h 57m 22s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 18h 59m 52s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 15h 04m 02s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 19h 05m 28s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 15h 13m 13s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindUnpurchasedTest - 2018.12.08 at 19h 26m 15s.xml">
-      <configuration name="FindUnpurchasedTest" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 15h 13m 57s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PurchaseOrderUtils_extractPurchaseOrdersToArray - 2018.12.08 at 19h 30m 26s.xml">
-      <configuration name="PurchaseOrderUtils.extractPurchaseOrdersToArray" configurationId="JUnit" />
+    <history-entry file="PurchaseOrderUtils_extractOpenPurchaseOrders - 2018.12.09 at 15h 22m 54s.xml">
+      <configuration name="PurchaseOrderUtils.extractOpenPurchaseOrders" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -715,7 +700,7 @@
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21786942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14226805" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -725,7 +710,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897863" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4287411" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4287411" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897863" />
@@ -781,22 +766,22 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/utils/SalesOrderParse.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/FindUnpurchasedTest.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/PurchaseOrderUtils.java</url>
-          <line>29</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -805,12 +790,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="salesOrders" />
-        <watch expression="salesOrder" />
-        <watch expression="salesOrders.get(0).itemsToOrder" />
-        <watch expression="salesOrder1" />
-        <watch expression="salesOrder1.soNumber" />
-        <watch expression="salesOrder.soNumber" />
+        <watch expression="poArray" />
       </configuration>
     </watches-manager>
   </component>
@@ -818,14 +798,16 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>salesOrder</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/internal/marshallers/DefaultMarshaller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../poi/poi-ooxml-4.0.0.jar!/org/apache/poi/openxml4j/opc/internal/unmarshallers/PackagePropertiesUnmarshaller.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1023,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/ParseDates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pojo/LineChartPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1137,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/VendorParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pojo/LineChartInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1157,6 +1125,55 @@
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/SalesOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/SRItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1087">
+          <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+          <folding>
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2264#2265#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/VendorParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/ParseDates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SalesOrderParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -1174,57 +1191,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/SRItem.java">
+    <entry file="file://$PROJECT_DIR$/test/PurchaseOrderUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="188" selection-start-line="188" selection-end-line="189" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/SalesOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SalesOrderParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="229">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/FindUnpurchasedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="289">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/PurchaseOrderUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/ExcelFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/PurchaseOrderExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
         </state>
       </provider>
     </entry>

@@ -18,8 +18,8 @@ public class PurchaseOrderUtils {
         ArrayList<PurchaseOrder> purchaseOrder = null;
         try {
             purchaseOrder = PurchaseOrderExtractor.
-                    getPurchaseOrder("C:/Users/rcarb/OneDrive/Documents/testExcel.xlsx");
-        } catch (IOException | ParseException | InvalidFormatException e) {
+                    getPurchaseOrderReport("C:/Users/rcarb/OneDrive/Documents/signresource/poreport.xlsx");
+        } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
         assert purchaseOrder != null;

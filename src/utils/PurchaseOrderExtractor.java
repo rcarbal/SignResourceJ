@@ -16,6 +16,150 @@ import java.util.Date;
 import java.util.Iterator;
 
 public class PurchaseOrderExtractor {
+
+
+    public static ArrayList<PurchaseOrder> getPurchaseOrderReport(String s) throws IOException, ParseException {
+        ArrayList<PurchaseOrder> poArray = new ArrayList<>();
+        File file = new File(s);
+
+
+        Workbook workbook = WorkbookFactory.create(file);
+        Sheet sheet = workbook.getSheetAt(0);
+        DataFormatter dataFormatter = new DataFormatter();
+        Iterator<Row> rowIterator = sheet.rowIterator();
+
+
+        int currentPO = -2;
+        PurchaseOrder po = new PurchaseOrder();
+        int rowIndex = 0;
+        int columnIndex = 0;
+        ArrayList<SRItem> srItemArrayList = new ArrayList<>();
+
+        for (Row row : sheet) {
+            //When the row changes a new item should be added
+            SRItem item = new SRItem();
+            rowIndex = row.getRowNum();
+
+
+            if (rowIndex == 0) {
+                //
+            } else {
+
+
+                for (Cell cell : row) {
+
+                    columnIndex = cell.getColumnIndex();
+
+                    String cellValue = dataFormatter.formatCellValue(cell);
+
+                    switch (columnIndex) {
+                        case 0:
+                            //vendor
+                            if (cellValue == null)break;
+                            item.setVendorNumber(Integer.valueOf(cellValue));
+                            break;
+                        case 2:
+                            if (cellValue == null)break;
+                            int parsingPo = Integer.valueOf(cellValue);
+                            po.addPurchaseOrderNumber(currentPO);
+                            if (currentPO == -2) {
+                                currentPO = parsingPo;
+                            }
+                            if (currentPO != parsingPo) {
+
+                                // save PO to array.
+                                po.addToPartNumberArray(srItemArrayList);
+                                poArray.add(po);
+                                po = new PurchaseOrder();
+                                srItemArrayList = new ArrayList<>();
+                                currentPO = parsingPo;
+                            }
+                            break;
+                        case 3:
+                            //Set SO number
+                            if (cellValue == null)break;
+                            String sonumber ="";
+                            //check if it is a number
+                            if (cellValue.length() > 6){
+                               sonumber = cellValue.substring(0, 7);
+                            }
+                            sonumber = cellValue;
+
+                            if (!isInteger(sonumber)){
+                             item.setSalesorderNumber(-1);
+                             break;
+                            }
+                            else {
+                                item.setSalesorderNumber(Integer.valueOf(sonumber));
+                                break;
+                            }
+                        case 4:
+                            //Date entered
+                            if (cellValue == null)break;
+                            SimpleDateFormat objSDFDtEnt = new SimpleDateFormat("MM/dd/yy");
+                            Date date2 = objSDFDtEnt.parse(cellValue);
+                            item.addItemDateEntered(date2);
+                            break;
+                        case 5:
+                            //Date Due
+                            if (cellValue == null)break;
+                            if (cellValue.contains("C")){
+                               break;
+                            }
+                            SimpleDateFormat objSDF = new SimpleDateFormat("MM/dd/yy");
+                            Date date = objSDF.parse(cellValue);
+                            item.addItemDueDate(date);
+                            break;
+                        case 6:
+                            //Part number
+                            if (cellValue == null)break;
+                            item.addItemNumber(cellValue);
+                            break;
+                        case 7:
+                            //Part description
+                            if (cellValue == null)break;
+                            item.addItemDescription(cellValue);
+                            break;
+                        case 8:
+                            //Ordered Quantity
+                            if (cellValue == null)break;
+                            String replaceString = "";
+                            if (cellValue.contains(",")){
+                                replaceString = cellValue.replace(",","");
+                            }else {
+                                replaceString = cellValue;
+                            }
+                            item.addItemOrderQuantity(Integer.valueOf(replaceString));
+                            break;
+                        case 9:
+                            //Opended Quantity
+                            if (cellValue == null)break;
+                            String replaceString2 = "";
+                            if (cellValue.contains(",")){
+                                replaceString2 = cellValue.replace(",","");
+                            }else {
+                                replaceString2= cellValue;
+                            }
+                            item.setOpenQuantity(Integer.valueOf(replaceString2));
+
+                    }
+                }
+            }
+            if (rowIndex > 0) {
+                item.addPoNumber(currentPO);
+                srItemArrayList.add(item);
+            } else {
+
+            }
+
+        }
+        po.addToPartNumberArray(srItemArrayList);
+        poArray.add(po);
+        return poArray;
+
+
+    }
+
     public static ArrayList<PurchaseOrder> getPurchaseOrder(String s) throws IOException, ParseException, InvalidFormatException {
 
         ArrayList<PurchaseOrder> poArray = new ArrayList<>();
@@ -89,7 +233,7 @@ public class PurchaseOrderExtractor {
                         case 6:
                             //vendor number
                             int vendorNumber = Integer.valueOf(cellValue);
-                            item.addItemVendor(vendorNumber);
+                            item.setVendorNumber(vendorNumber);
                             break;
                         case 7:
                             //vendor name
@@ -199,7 +343,7 @@ public class PurchaseOrderExtractor {
                         case 27:
                             //vendor number
                             int vendorNumber = Integer.valueOf(cellValue);
-                            item.addItemVendor(vendorNumber);
+                            item.setVendorNumber(vendorNumber);
                             break;
                     }
                     //add the SR to new PO.
