@@ -70,6 +70,7 @@ public class PurchaseOrderExtractor {
                                 // save PO to array.
                                 po.addToPartNumberArray(srItemArrayList);
                                 poArray.add(po);
+                                System.out.println("Purchase Orders Parsed: " + poArray.size());
                                 po = new PurchaseOrder();
                                 srItemArrayList = new ArrayList<>();
                                 currentPO = parsingPo;
@@ -113,7 +114,7 @@ public class PurchaseOrderExtractor {
                         case 6:
                             //Part number
                             if (cellValue == null)break;
-                            item.addItemNumber(cellValue);
+                            item.setItemNumberString(cellValue);
                             break;
                         case 7:
                             //Part description
@@ -155,6 +156,7 @@ public class PurchaseOrderExtractor {
         }
         po.addToPartNumberArray(srItemArrayList);
         poArray.add(po);
+        System.out.println("Purchase Orders Parsed: " + poArray.size());
         return poArray;
 
 
@@ -211,7 +213,7 @@ public class PurchaseOrderExtractor {
                             }
                             break;
                         case 1:
-                            item.addItemNumber(cellValue);
+                            item.setItemNumberString(cellValue);
                             break;
                         case 2:
                             //2 is for SO due date
@@ -292,7 +294,7 @@ public class PurchaseOrderExtractor {
 
         ArrayList<PurchaseOrder> poArray = new ArrayList<>();
 
-        File file = new File("C:/Users/rcarb/OneDrive/Documents/pop.xlsx");
+        File file = new File("C:/Users/rcarb/OneDrive/Documents/pop.xls");
 
 //        WorkbookFactory.create(file);
         // Getting the Sheet at rowIndex zero

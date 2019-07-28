@@ -49,8 +49,12 @@ public class SRItem implements Comparable<SRItem> {
     }
 
 
-    public void addItemNumber(String cellValue) {
+    public void setItemNumberString(String cellValue) {
         itemNumberString = cellValue;
+    }
+
+    public String getItemNumberString(){
+        return itemNumberString;
     }
 
     public void addItemDescription(String cellValue) {

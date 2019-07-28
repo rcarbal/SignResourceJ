@@ -20,7 +20,9 @@ public class PurchaseOrderUtilsTest {
         try {
             purchaseOrder = PurchaseOrderExtractor.
                     getPurchaseOrder("C:/Users/rcarb/OneDrive/Documents/testExcel.xlsx");
-        } catch (IOException | ParseException | InvalidFormatException e) {
+        } catch (IOException | ParseException e) {
+            e.printStackTrace();
+        } catch (InvalidFormatException e) {
             e.printStackTrace();
         }
         assert purchaseOrder != null;
@@ -36,7 +38,9 @@ public class PurchaseOrderUtilsTest {
         try {
             purchaseOrder = PurchaseOrderExtractor.
                     getPurchaseOrder("C:/Users/rcarb/OneDrive/Documents/testExcel.xlsx");
-        } catch (IOException | ParseException | InvalidFormatException e) {
+        } catch (IOException | ParseException e) {
+            e.printStackTrace();
+        } catch (InvalidFormatException e) {
             e.printStackTrace();
         }
 

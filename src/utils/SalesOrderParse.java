@@ -15,7 +15,7 @@ import java.util.Iterator;
 public class SalesOrderParse {
     public static ArrayList<SalesOrder> getAllSalesOrders() throws IOException, ParseException {
         ArrayList<SalesOrder> salesOrders = new ArrayList<>();
-        File file = new File("C:/Users/rcarb/OneDrive/Documents/signresource/salesorders.xlsx");
+        File file = new File("C:/Users/rcarb/OneDrive/Documents/signresource/salesorders1.xlsx");
 
 
         Workbook workbook = WorkbookFactory.create(file);
@@ -63,7 +63,7 @@ public class SalesOrderParse {
                         case 9:
                             //Part Number
                             if (cellValue==null)break;
-                            item.addItemNumber(cellValue);
+                            item.setItemNumberString(cellValue);
                             break;
                         case 13:
                             //Item Quantity
@@ -83,7 +83,6 @@ public class SalesOrderParse {
 
                                         //add the item to the current SalesOrder in the arralylist
                                         salesOrder1.getSRItemArray().add(item);
-                                        System.out.println(String.valueOf(salesOrder1.getSalesOrderNumber()));
                                         found = true;
                                         break;
                                     }
@@ -95,7 +94,7 @@ public class SalesOrderParse {
                                         salesOrder.setSRItemArray(new ArrayList<>());
                                         salesOrder.getSRItemArray().add(item);
                                         salesOrders.add(salesOrder);
-                                        System.out.println(String.valueOf(salesOrder.getSalesOrderNumber()));
+                                        System.out.println("Sales Orders Parse: " + salesOrders.size());
 
                                 }
                             }
@@ -104,6 +103,7 @@ public class SalesOrderParse {
                                 salesOrder.setSRItemArray(new ArrayList<>());
                                 salesOrder.getSRItemArray().add(item);
                                 salesOrders.add(salesOrder);
+                                System.out.println("Sales Orders Parse: " + salesOrders.size());
 
                             }
                     }
